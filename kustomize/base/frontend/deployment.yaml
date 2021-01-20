@@ -17,5 +17,3 @@ spec:
         image: eu.gcr.io/container-solutions-workshops/timber/frontend:v1.0
         ports:
         - containerPort: 8080
-        env:
-          - {name: TIMBER_BACKEND_API_URL, value: "http://timber-backend:8080"}
